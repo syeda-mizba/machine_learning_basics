@@ -1,6 +1,6 @@
 import google.generativeai as genai 
 
-api_key = "AIzaSyB8FoMubgD2EMNjtAiMv64MpO43QsidOI4"
+api_key = "YOUR API KEY"
 MODEL =  "gemini-3-flash-preview"
 
 SYSTEM_PROMPT = """
@@ -36,4 +36,5 @@ chat = setup()
 while True:
     user_input=input("you:").strip()
     ask_ai_stream(chat,user_input)
+
 
